@@ -1,0 +1,18 @@
+yarn install --force
+
+npx prisma generate
+
+yarn prisma migrate dev 
+
+yarn dev
+
+------------------------------------------------------------------------------------------
+
+cadastro de produtos:
+ - tela com formulario de cadastro
+ - executar o serviço de listagem de categoria /llistcategory
+ - exibir os dados das categorias em um input do tipo "select"
+ - para selecionar a imagem do produto utilizar um input do tipo "file"
+ - apos preencher todos os dados, executar o serviço de cadastro de produtos /product
+
+ data da observação: 09/set
